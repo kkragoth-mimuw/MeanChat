@@ -1,0 +1,23 @@
+{
+  "name": "MeanChatty",
+  "homepage": "https://github.com/kkragoth/MeanChatty",
+  "authors": [
+    "kkragoth <kkragoth@gmail.com>"
+  ],
+  "description": "Chat app",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "^0.5.9",
+    "gmaps": "gmaps.js#^0.4.22"
+  }
+}
