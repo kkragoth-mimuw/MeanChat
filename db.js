@@ -1,7 +1,5 @@
 var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/social', function(err) {
-  if (err) throw err;
-  console.log("Connection with mongodb established");
-})
+var url = process.env.MONGODB_URI | 'mongodb://localhost/social'
 
+mongoose.connect(url)
 module.exports = mongoose
